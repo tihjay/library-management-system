@@ -1,0 +1,79 @@
+{
+  "info": {
+    "name": "Library Management System",
+    "_postman_id": "123456",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/auth/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/auth/login"
+      }
+    },
+    {
+      "name": "Get Books",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/books"
+      }
+    },
+    {
+      "name": "Create Book",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/books"
+      }
+    },
+    {
+      "name": "Update Book",
+      "request": {
+        "method": "PATCH",
+        "url": "{{baseUrl}}/books/1"
+      }
+    },
+    {
+      "name": "Delete Book",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/books/1"
+      }
+    },
+    {
+      "name": "Get Genres",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/genres"
+      }
+    },
+    {
+      "name": "Create Genre",
+      "request": {
+        "method": "POST",
+        "url": "{{baseUrl}}/genres"
+      }
+    },
+    {
+      "name": "Update Genre",
+      "request": {
+        "method": "PATCH",
+        "url": "{{baseUrl}}/genres/1"
+      }
+    },
+    {
+      "name": "Delete Genre",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/genres/1"
+      }
+    }
+  ]
+}
